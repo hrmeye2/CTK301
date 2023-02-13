@@ -1,0 +1,31 @@
+.firetruck {color: #78A4AF; background-color: #9F78AF }
+
+p {background-color:#78AF83 ;color: #9F78AF}
+.spanstyle {color: #78A4AF; background-color: #9F78AF}
+
+a {
+    color: #AF78A4;
+  }
+  
+  a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:active {
+    color: #78A4AF;
+  }
+  
+  a:hover {
+    color: yellow;
+  }        
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
