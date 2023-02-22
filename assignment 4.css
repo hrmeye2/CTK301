@@ -1,0 +1,90 @@
+.firetruck {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: black;}
+
+h1{color: orange; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    background-color: black;}
+h2{color: orange; 
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: normal;}
+h3{color: orange; 
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;}
+h4{color: orange; 
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: normal;}
+        nav ul { list-style-type: none; 
+            margin: 0 ;
+            padding: 0; }
+nav li {
+        border: 1px solid black;
+        width: 150px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        background-color: darkred;
+        color: white;
+        display:inline-block }
+    
+    nav li a { color: white;
+    text-decoration: none;
+    display:block;}
+
+    
+nav li:hover {background-color: orange;}
+
+.imgbox  {
+    border: 30px solid black;
+        padding: 10px;
+        margin: 20px; 
+    background-color: yellow;}
+
+.spanstyle {color: #78A4AF; background-color: #9F78AF ;}
+
+a {color: darkred;}
+  
+  a:link {color: orange;}ß
+  
+  a:visited {color: green;}
+  
+  a:active {color: yellowgreen;}
+  
+  a:hover {color: yellow;}        
+  a {text-decoration: none;}
+  
+  a:hover {text-decoration: none;}
+  .textright {
+    text-align: right;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+.textspace {
+    letter-spacing: 20px;
+}
+
+.textheight {
+    line-height: 20px;
+}      
+
+body {background-image: url(bart.jpeg);}
