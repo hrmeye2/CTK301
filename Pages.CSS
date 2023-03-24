@@ -1,0 +1,81 @@
+body {background-color: darkgray;}
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12,1);
+  }
+nav {grid-column: span 12;
+margin-left: 30px;
+background-color: blue;}
+nav ul li {text-decoration: none;
+    text-align: left;
+      color: pink;
+      font-family: Arial, Helvetica, sans-serif;
+      display: inline-block;
+      width: 150px;  
+      margin-left: 30px;
+      margin-right: 30px;
+}
+p {font-family: Arial, Helvetica, sans-serif;}
+ul a {text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to left, blue, lightblue);
+display: block;
+padding: 10px;}
+h2 {border-bottom: 2px solid black;}
+    
+ul a:hover {background-color: pink;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;}
+h1 {grid-column: span 12;
+    border: 2px solid darkblue;
+    padding: 10px;
+    background-image: linear-gradient(to right, darkblue, blue);
+    ;margin-bottom: 10px;
+    font-family: georgia;
+    margin: 0px;
+}
+h2 {grid-column: span 9;}
+.blue {float: left;
+width: 400px;
+border: 2px solid black;
+background-color: lightblue;
+font-family: georgia;
+margin-right: 20px;
+margin-left: -30px;
+}
+.space {background-color: white;
+margin-top: -28px;
+padding-bottom: 5px;}
+
+.title {grid-column: span 3;
+border-bottom: 2px solid darkblue ;
+width: 300px;
+margin-left: 10px;}
+p a {text-decoration: none;
+color: red;}
+p a:hover {color: blue;}
+p a:visited {color: lime;}
+.floatimage {float: left;
+margin: 10px;
+border: 2px solid black;}
+h1 a {text-decoration: none;
+  color: lightblue;
+margin-left: 300px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.paragraph {padding: 10px}
+
+.underline{border-bottom: 2px solid darkblue;
+  background-color: white;
+    width: 887px;
+  padding: 20px;}
+.footer {grid-column: span 12;
+background-color: red;
+border: 2px solid darkblue;
+padding: 5px;}
