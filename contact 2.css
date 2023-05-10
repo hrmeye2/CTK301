@@ -10,11 +10,11 @@
     body {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px 2px 2px #000; /* x, y, blur, color */
-color: #fcba03;}
+color: #e7a941;}
     h2 {margin: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: #fcba03;
+    background-color: #e7a941;
 text-decoration: none;}
     body {
         background-image: url(yellowandgreen.jpeg);}
@@ -34,7 +34,7 @@ text-decoration: none;}
 }
 
 .link1 {display: block;
-background-color:#fcba03;
+background-color:#e7a941;
 text-decoration: none;
 text-align: center;
 width: 300px;
@@ -51,6 +51,7 @@ padding: 10px;}
     margin-top: 10px;
     float: right;
     border: 1px solid black;
+    box-shadow: -10px -10px 1px darkolivegreen; /* x, y, blur, color */
     }
 
 
@@ -61,13 +62,13 @@ margin-top: 55px;}
 
 .record { height: 300px;
 grid-column: span 9;
-background-color:#fcba03;
+background-color:#e7a941;
 border: 1px solid black;
 }
 
 .socialmedia {grid-column: span 9;
 border: 1px solid black;
-background-color: #fcba03;
+background-color: #e7a941;
 height: 300px;}
 
 .mountains { height: 150px;
@@ -86,18 +87,21 @@ text-align: left;}
      padding: 5px;
      border-radius: 10px;
     border: 1px solid black;
+    box-shadow: -10px -10px 1px #6e552b; /* x, y, blur, color */
 }
 
 
 p {margin: 10px;}
 
 footer {grid-column: span 12;
-height: 100px;
+height: 70px;
+text-align: center;
 border-bottom-left-radius: 10px;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
 border: 1px solid black;}
-
+.footer {margin-top: 15px;}
+.foot {height: 50px;}
 a {text-decoration: none;
     display: block;
     padding: 10px;
