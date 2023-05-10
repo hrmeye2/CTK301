@@ -1,0 +1,136 @@
+.wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 960px;
+    border-radius: 10px;
+    background-color: tan;
+  }
+  h1 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+  h2 {border-bottom: 2px solid black;
+    width: 300px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+h3 {font-weight: bold;
+    font-family: Impact}
+
+  header {
+    grid-column: span 12;
+    width: 920px;
+    padding: 20px;
+    color: #e7a941;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color:olive;
+    text-shadow: 2px 2px 2px #000; /* x, y, blur, color */}
+  
+  .aboutme {color: darkolivegreen;
+    margin: 10px; }
+
+  .aboutmee {margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 600px;}
+  nav {
+    grid-column: span 3;
+    float:left;
+    margin-left: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.piitch {margin-left: 240px;
+    color: darkolivegreen;
+}
+.sp {width: 480px;
+    margin: -5px 20px 25px 40px;
+background-color: #e7a941;
+border-radius: 10px;
+border: 2px solid black;}
+
+.prices {color: darkolivegreen;}
+  main {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    grid-column: span 9;
+  }
+  .pitch {grid-column: 6;
+  display: inline;
+  padding: 20px;}
+
+.Sessions {
+    display: inline;
+    margin: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 500px;}
+
+.mountain {
+    padding: 10px;
+    width: 300px;
+    margin: 50px 10px 0px 10px;
+  border: 2px solid black;
+  box-shadow: -10px -10px 1px darkolivegreen; /* x, y, blur, color */
+  background-color:#e7a941;
+  border-radius: 10px;
+  display: inline;
+  float: right;}
+
+.logo {
+    padding:20px;
+  margin-left: 20px;}
+div {
+  padding: 20px;
+  margin:10px;}
+body {background-image: url(yellowandgreen.jpeg);
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+ul li {
+    border: 1px solid black;
+    width: 150px;
+    list-style-type: none;
+    float: right;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    background-color:  #e7a941;
+}
+ul a {color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all .5s;
+    }
+ul li:hover {background-color: darkolivegreen;
+    border-radius: 10px;
+    color: white;
+            color: darkolivegreen;}
+
+.box {
+    border: 2px solid black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color:#e7a941;
+    display: inline-block;
+    width: 200px;}
+
+
+a:hover {color: black;
+            text-decoration: none;
+            background-color: #e7a941;
+            border-radius: 10px;}
+
+a {text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: block;
+    background-color: olive;}
+
+
+footer {
+        grid-column: span 12;
+        padding: 10px;
+        background-color:  olive;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        text-align: center;
+      }
